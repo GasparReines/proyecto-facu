@@ -1,18 +1,29 @@
 .p1{
-    background-color: cadetblue;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,100,121,1) 0%, rgba(15,150,7,1) 1%, rgba(7,153,68,1) 17%, rgba(5,175,62,1) 46%, rgba(4,196,171,1) 81%, rgba(0,212,255,1) 100%);
+border-radius: 15px;
 }
 h1{ 
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 15px;
 }
 img{
     height: 8cm;
     margin-left: 11.75cm;
+    box-shadow: 15px 15px 45px black;
+    border-radius: 15px;
+    /*se pueden usar otros parametros, como por ejemplo que la sombra este para adentro. */
 }
 .p2{
     background-color: rgb(80, 119, 192);
+    border-radius: 15px;
+    padding: 20px;
 }
 .p3{
     background-color: darkgrey;
     text-align: center;
+    column-count: 2;
+    border-radius: 15px;
+    padding: 15px;
 }
