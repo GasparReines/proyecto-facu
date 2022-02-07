@@ -1,0 +1,14 @@
+#contenedor{
+    background-color: skyblue;
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content:space-evenly;
+}
+.item{
+    background-color: blueviolet;
+    width: 20%;
+    margin:0px;
+    height: 40px;
+    font-size: 30px;   
+   
+}

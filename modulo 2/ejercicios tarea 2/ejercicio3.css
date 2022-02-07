@@ -1,0 +1,13 @@
+#contenedor{
+    background-color: skyblue;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+.item{
+    background-color: blueviolet;
+    width: 100px;
+    height: 40px;
+    margin: 15px;
+    font-size: 30px;
+}
