@@ -11,4 +11,8 @@
     height: 40px;
     margin: 15px;
     font-size: 30px;
+    transition: all 0.3s ease;
+}
+.item:hover{
+transform: scale(0.5);
 }

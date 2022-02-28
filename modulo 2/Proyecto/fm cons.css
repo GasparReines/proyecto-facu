@@ -11,6 +11,14 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
 }
 .num{
-    color: darkorchid;
+    height: 100px;
+    width: 200px;
+    background-color: brown;
+    color: aliceblue;
     text-align: center;
+    margin: auto;
+    transition: all 0.3s ease-in-out;
+}
+.num:hover{
+    transform: scale(1.3);
 }
