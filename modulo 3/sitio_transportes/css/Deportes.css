@@ -1,0 +1,148 @@
+/*font-family: 'Fredoka', sans-serif;*/
+body{
+    font-family: 'Fredoka', sans-serif;
+    font-size: 19px;
+    line-height: 19px;
+    margin: 0;
+}
+header{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(11,135,163,1) 0%, rgba(23,135,138,1) 45%, rgba(119,206,223,1) 100%);
+    padding: 16px 0;
+}
+header h1{
+    color:darkred;
+    font-size: 40px;
+    font-weight: 500;
+    font-style: italic;
+    display: inline-block;
+    position: relative;
+    bottom: 30px;
+}
+nav {
+    background: rgb(2,0,36);
+    background: linear-gradient(344deg, rgba(2,0,36,1) 0%, rgba(195,171,213,1) 0%, rgba(176,109,187,1) 46%, rgba(164,85,182,1) 100%);
+    margin-bottom: 28px ;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    display: inline-block;
+    width: 16.3%;   
+} 
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 2.2px 2.2px;
+} 
+nav ul li a:hover{
+background-color: darkblue;
+}
+footer{
+    background: rgb(2,0,36);
+    background: linear-gradient(344deg, rgba(2,0,36,1) 0%, rgba(228,221,221,1) 0%, rgba(175,148,148,1) 45%, rgba(208,106,106,1) 100%);
+    clear: both;
+    padding: 32px;
+    margin-top: 2em;
+    text-align: center;
+}
+nav ul li a.activo{
+    background-color: darkblue;
+}  
+.holder{
+    max-width: 960px;
+    margin: 0 auto;
+} 
+h2{
+    color:darkred;
+    font-weight: 600;
+    margin: 0 0 1em;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.homeimg{
+    margin-bottom: 24px;
+}
+.bienvenidos, .testimonios{
+    box-sizing: border-box;
+}
+.bienvenidos{
+    width: 75%;
+    padding-right: 2em;
+}
+.testimonios{
+    width: 25%; 
+}
+.testimonio{
+    padding: 1em;
+    background-color: grey;
+}
+.testimonio .cita{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.4em;
+    display: block;
+}
+.testimonio .autor{
+    font-size: 9px;
+    text-align: center;
+    margin: 16px 0;
+    display: block;
+}
+.historia p{
+    font-size: 12.8px;
+}
+
+.persona {
+    width: 18%;
+    border: 1px solid black;
+    border-radius: 4px;
+    float: left;
+    margin-left: 2.25%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.persona img{
+    border-radius: 50%;
+    box-shadow: 0 0 5px black;
+    margin: 12.8px 0 16px;
+    max-width: 70%;
+}
+.persona h5, .persona h6{
+    text-align: center;
+    font-weight: normal;
+    color:darkgray;
+    margin: 0;
+}
+.persona h5{
+    font-size: 14.4px;
+}
+.persona h6{
+    font-size: 12.8px;
+    font-style: italic;
+}
+.persona p{
+    font-size: 11.2px;
+    color: darkorange;
+    margin: 0 16px 16px;
+}
+.persona:first-child{
+    margin-left: 0;
+}
+.personas{
+    overflow: hidden;
+}
+.servicio{
+    border: 16px solid darkgray;
+    border-radius: 11.2px;
+}
