@@ -145,4 +145,40 @@ h2{
 .servicio{
     border: 16px solid darkgray;
     border-radius: 11.2px;
+    margin: 16px 0;
+    padding: 17px;
+    overflow: hidden;
+}
+.servicio .info{
+    width: 75%;
+}
+.servicio .info h4{
+    color: lightblue;
+    font-size: 19.2px;
+    font-style: italic;
+    font-weight: 500;
+    margin: 0 0 16px;
+    border-bottom: 1px solid darkblue;
+    padding-bottom: 9px;
+}
+.servicio .info p {
+    font-size: 12.8px;
+    line-height: 19.2px;
+}
+.servicio img{
+    border-radius: 16px; 
+}
+.servicio:nth-child(even) img{
+    float: right;
+    margin: 0 0 0 16px;
+}
+.servicio:nth-child(even) .info{
+float:left;
+}
+servicio:nth-child(odd) img{
+    float: left;
+    margin: 0 16px 0 0;
+}
+.servicio:nth-child(odd) .info{
+    float: right;
 }
